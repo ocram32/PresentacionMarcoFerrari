@@ -1,0 +1,110 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header {
+    padding: 20px;
+}
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+p {
+    font-size: 1.2em;
+}
+
+
+#tituloproyectos{
+display: block;
+text-align: center;
+}
+.section-1 {
+background-color: #c77b40;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 50px;
+}
+.section-2 {
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    width: 200px;
+    height: 200px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card i {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.card h2 {
+    font-size: 1.5em;
+    margin: 0;
+}
+.card p {
+    font-size: 1em;
+    margin: 10px 0 0;
+}
+.section-3 {
+    background-color: #da9a6a;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.project {
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+}
+.project img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+.project h3 {
+    font-size: 1.5em;
+    margin: 10px 0 0;
+}
+.project p {
+    font-size: 1em;
+    margin: 10px 0 0;
+}
+.column {
+width: 50%;
+padding: 0px;
+}
+
+.column img {
+max-width: 100%;
+height: auto;
+}
+
+#foto {
+width: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#descripcion {
+    text-align: left;
+    width: 50%;
+}
